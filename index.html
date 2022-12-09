@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>2048 Game</title>
+        <style></style>
+         <body>
+            <table id="field"></table>
+            <script>
+                 varsize = 4;
+            var htmElements;
+
+            function createField(){
+                if (htmlElement) {
+                    return;
+                }
+            htmlElements =[];
+            var table = document.getElementBtId('field');
+            for v(var y = 0; y < size;++){
+                var tr = document.createElement('tr');
+                var trElements = [];
+                for (var x = 0; x <size; x++){
+                    var td = document.createElement('td');
+                    td.setAttribute('class', cell');
+                    tr.appendChild(td);
+                    trElement.push(td)
+                }
+                htmlElement.push(trElements);
+                table.appendChild(tr);
+            }
+        }
+
+        function init(){
+            createField()
+        }
+        init();   
+
+
+
+
+
+            </script>
+    </body>
+</html>
